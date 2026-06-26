@@ -44,22 +44,6 @@ export default function LPPage() {
         </div>
       </section>
 
-      {/* 数字 */}
-      <section className="py-12 border-y border-white/5">
-        <div className="max-w-4xl mx-auto px-6 grid grid-cols-3 gap-8 text-center">
-          {[
-            { num: '8棟', label: '同時管理' },
-            { num: '5日', label: '天気予報' },
-            { num: '即日', label: '導入可能' },
-          ].map(s => (
-            <div key={s.num}>
-              <div className="text-3xl font-semibold text-green-400">{s.num}</div>
-              <div className="text-sm text-gray-500 mt-1">{s.label}</div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* 機能 */}
       <section id="features" className="py-20 px-6">
         <div className="max-w-5xl mx-auto">
