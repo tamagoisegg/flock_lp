@@ -36,15 +36,12 @@ export default function LPPage() {
               className="bg-green-600 hover:bg-green-500 text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm">
               2ヶ月無料で試してみる
             </a>
-            <a href="https://flock-demo-snowy.vercel.app/"
+            <a href="https://demo.flock-apps.com/"
               target="_blank" rel="noopener noreferrer"
               className="bg-white/5 hover:bg-white/10 text-white border border-white/10 font-medium px-8 py-3 rounded-lg transition-colors text-sm">
               デモを試す
             </a>
           </div>
-          <p className="text-xs text-gray-500 mt-4">
-            デモ用アカウント：demo@flock-demo.jp / demo1234
-          </p>
         </div>
       </section>
 
