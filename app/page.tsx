@@ -108,7 +108,7 @@ export default function LPPage() {
               href="#contact"
               className="bg-green-600 hover:bg-green-500 text-white font-medium px-8 py-3.5 rounded-lg transition-colors text-sm"
             >
-              2ヶ月無料で試す
+              1ヶ月無料で試す
             </a>
 
             <a
@@ -323,7 +323,7 @@ export default function LPPage() {
                 '日次記録・成績管理・比較機能',
                 'HSIリスク予報',
                 '初期設定サポート付き',
-                '最初の2ヶ月は無料',
+                '最初の1ヶ月は無料',
                 'いつでも解約可能',
               ].map((item) => (
                 <li key={item} className="flex items-center gap-2.5 text-sm text-gray-300">
@@ -337,7 +337,7 @@ export default function LPPage() {
               href="#contact"
               className="block bg-green-600 hover:bg-green-500 text-white font-medium py-3.5 rounded-lg transition-colors text-sm"
             >
-              2ヶ月無料で試す
+              1ヶ月無料で試す
             </a>
 
             <p className="text-xs text-gray-500 mt-4">
